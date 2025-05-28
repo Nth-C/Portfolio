@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Optimiser des applications informatiques : proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources"
         ]
       },
-      images: ["image/java.webp", "image/word.webp"],
+      images: ["image/Java.webp", "image/word.webp"],
       subtitles: ["JAVA", "WORD"],
       lien: "https://exemple.com/projet1"
     },
