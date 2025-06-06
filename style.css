@@ -1268,6 +1268,12 @@ textarea::placeholder {
     padding-bottom: 50px;
 }
 
+@media (max-width:400px) {
+    .competence-projet h1 {
+        font-size: 33px;
+    }
+}
+
 .competence-projet h2 {
     margin-bottom: 2%;
 }
