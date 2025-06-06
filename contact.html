@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Arizonia&family=Candal&family=Courgette&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Rubik+Mono+One&family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script-scrollSmooth-autrePage.js"></script>
+    <script src="script-img-projet.js"></script>
+    <title>Coeurdevey Nathan Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-principal">
+            <div>
+                <ul>
+                    <li><a href="index.html">A PROPOS</a></li>
+                    <li class="menue-deroulant active">
+                        <a href="projet.html" class="underline">PROJETS</a>
+                        <ul class="menue-deroulant-cache">
+                            <a href="page-projets.html?id=1">
+                                <li>Projet 1</li>
+                            </a>
+                            <a href="page-projets.html?id=2">
+                                <li>Projet 2</li>
+                            </a>
+                            <a href="page-projets.html?id=3">
+                                <li>Projet 3</li>
+                            </a>
+                            <a href="page-projets.html?id=4">
+                                <li>Projet 4</li>
+                            </a>
+                            <a href="page-projets.html?id=5">
+                                <li>Projet 5</li>
+                            </a>
+                            <a href="page-projets.html?id=6">
+                                <li>Projet 6</li>
+                            </a>
+                            <a href="page-projets.html?id=7">
+                                <li>Projet 7</li>
+                            </a>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="contact">
+        <div class="espacement-30">
+            <h1>ME CONTACTER</h1>
+            <hr>
+            <div class="form-conteur">
+                <form class="contacte-form" action="index.html">
+                  <div class="form-box">
+                    <div class="div-rensseignement">
+                      <div class="contact-div-renseignement">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom_de_famille" placeholder="Limbert..." class="img-contact-input img-nom" required>
+                      </div>
+                      <div class="contact-div-renseignement">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="preonom" placeholder="Jean..." class="img-contact-input img-nom" required>
+                      </div>
+                      <div class="contact-div-renseignement">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="Adresse-email" placeholder="@gmail.com..." class="img-contact-input img-email" required>
+                      </div>
+                    </div>
+                    <div class="div-message">
+                      <label for="message">Message</label>
+                      <textarea class="contact-textarea" name="message-envoyer" id="message"
+                        placeholder="Avez-vous quelque chose à dire..."></textarea>
+                    </div>
+                  </div>
+                  <div class="div-btn-envoie">
+                    <input class="btn-envoie" type="submit" value="Envoyer">
+                  </div>
+                </form>
+              </div>
+              <hr>
+        </div>
+      </div>
+
+
+    <footer class="footer-contacte">
+        <div class="espacement-30 bas-de-page">
+            <div class="email">
+            </div>
+            <div class="reseau">
+                <a href="#">
+                    <img src="image/logo-linkedine.png" alt="" id="logo-reseau">
+                </a>
+                <a href="https://www.instagram.com/nathan.cdv/" target="_blank">
+                    <img src="image/logo-insta.png" alt="" id="logo-reseau">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

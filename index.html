@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Arizonia&family=Candal&family=Courgette&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Rubik+Mono+One&family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <title>Coeurdevey Nathan Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-principal">
+      <div>
+        <ul>
+          <li class="active"><a href="index.html">A PROPOS</a></li>
+          <li class="menue-deroulant">
+            <a href="projet.html" class="underline">PROJETS</a>
+            <ul class="menue-deroulant-cache">
+              <a href="page-projets.html?id=1">
+                <li>Projet 1</li>
+              </a>
+              <a href="page-projets.html?id=2">
+                <li>Projet 2</li>
+              </a>
+              <a href="page-projets.html?id=3">
+                <li>Projet 3</li>
+              </a>
+              <a href="page-projets.html?id=4">
+                <li>Projet 4</li>
+              </a>
+              <a href="page-projets.html?id=5">
+                <li>Projet 5</li>
+              </a>
+              <a href="page-projets.html?id=6">
+                <li>Projet 6</li>
+              </a>
+              <a href="page-projets.html?id=7">
+                <li>Projet 7</li>
+              </a>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <div class="Nom-Prenom">
+    <h1>COEURDEVEY</h1>
+    <h1>NATHAN</h1>
+  </div>
+
+
+  <div id="laFlecheCache" class="fleche-bas-affiche" onClick="masquerlediv()">
+    <img src="image/fleche bas.svg" alt="fleche_vers_le_bas">
+  </div>
+
+  <div id="ledivaffiche" class="le_div_masque box-a-propos">
+    <div class="fleche-remonte">
+      <a href="#">
+        <img src="image/fleche bas blanche.png" alt="fleche_vers_le_bas">
+      </a>
+    </div>
+    <div class="espacement-30 a-propos">
+      <h1>A PROPOS</h1>
+      <div class="desciption-moi">
+        <img src="image/photo de profile.jpg" alt="Moi">
+        <div class="description-texte">
+          <p>Bienvenue sur mon portfolio ! Je m'appelle Nathan, j'ai 19 ans, j'étudie actuellement dans un bachelor
+            Universitaire de technologie (BUT) en informatique à l'IUT2 de Grenoble en première année. <br>
+            Mon objectif est de devenir, à l'avenir, un développeur web full stack (j'ai une préférence pour le front-end).</p>
+          <div>
+            <h2>Mes passions</h2>
+            <ul class="passions">
+              <li>Musique : </li>
+              <p>Je fais du piano depuis plus de 11 ans et je continue toujours. Aujourd'hui, j'ai eu la
+                J'ai eu la chance d'étudier la musique en école, ce qui m'a permis d'apprendre le solfège (cours pour
+                Apprendre les notes, les rythmes).
+                Le piano m'a permis de développer plusieurs compétences, telles que savoir-faire plusieurs tâches
+                même temps (au piano les deux mains sont indépendantes), savoir garder mon calme (lors de
+                représentation, il faut pouvoir rester concentré et ne pas se faire déstabiliser par le public)</p>
+              <li>Sport : </li>
+              <p>Depuis tout petit j'ai pratiqué de nombreux sports tels que du judo, du tennis, du handball.
+                Le handball m'a permis de développer mon esprit d'équipe, le judo m'a permis de développer un esprit
+                combatif, résistant et également respectueux.
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mon-parours">
+      <div class="espacement-30">
+        <h1>MON PARCOURS</h1>
+        <div class="calendrier">
+          <div class="calendrier-gauche">
+            <h2>2024 BUT</h2>
+            <p>Première année de bachelor universitaire de technologie (BUT) en informatique</p>
+            <p>IUT 2 de Grenoble</p>
+            <hr>
+          </div>
+          <div class="calendrier-droite">
+            <h2>2021 - 2023, LYCÉE</h2>
+            <p>BAC TECHNOLOGIQUE, option SIN (Science de l'ingénieur et du numérique) et section européenne (Anglais),
+              mention très bien</p>
+            <p>LYCÉE FERDINANT BUISSON à Voiron</p>
+            <hr>
+          </div>
+          <div class="calendrier-gauche">
+            <h2>2017 - 2021 COLLÈGE</h2>
+            <p>BREVET des collèges, mention très bien</p>
+            <p>COLLÈGE ANDRE MALRAUX à Voreppe</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="competence">
+      <div class="espacement-30">
+        <h1>COMPÉTENCES</h1>
+        <div>
+          <div class="diff-competence">
+            <hr>
+            <h2>DEVELOPPER</h2>
+            <hr>
+          </div>
+          <div class="carousel" id="carrousel1">
+            <div class="carousel-inner">
+              <div class="carousel-item"><img src="image/Java.webp" alt="logo-Java">JAVA</div>
+              <div class="carousel-item"><img src="image/Java-FX.png" alt="logo-JavaFX">JAVAFX</div>
+              <div class="carousel-item"><img src="image/UML.png" alt="logo-UML">UML</div>
+              <div class="carousel-item"><img src="image/HTML5.png" alt="logo-HTML">HTML</div>
+              <div class="carousel-item"><img src="image/CSS.png" alt="logo-CSS">CSS</div>
+            </div>
+            <button class="carousel-control left" onclick="moveCarousel(-1)">
+              <img src="image/fleche bas.svg" alt="fleche_vers_le_bas" class="fleche-gauche">
+              <img src="image/fleche bas noir.png" alt="fleche_vers_le_bas" id="fleche-noir-gauche">
+            </button>
+            <button class="carousel-control right" onclick="moveCarousel(1)">
+              <img src="image/fleche bas.svg" alt="fleche_vers_le_bas" class="fleche-droite">
+              <img src="image/fleche bas noir.png" alt="fleche_vers_le_bas" id="fleche-noir-droite">
+            </button>
+            <div class="carousel-indicators">
+              <span onclick="setPosition(0)"></span>
+              <span onclick="setPosition(1)"></span>
+            </div>
+            <script src="script-carrousel.js"></script>
+          </div>
+          <div>
+            <div class="diff-competence">
+              <hr>
+              <h2>OPTIMISER</h2>
+              <hr>
+            </div>
+            <div class="carousel" id="carousel2">
+              <div class="carousel-inner">
+                <div class="carousel-item"><img src="image/Java.webp" alt="logo-Java">JAVA</div>
+                <div class="carousel-item"><img src="image/sql.png" alt="logo-SQL">SQL</div>
+                <div class="carousel-item"><img src="image/assembleur.png" alt="logo-Assembleur">ASSEMBLEUR-68000</div>
+                <div class="carousel-item"><img src="image/linux.png" alt="logo-Linux">LINUX</div>
+              </div>
+              <button class="carousel-control left" onclick="moveCarousel(-1)">
+                <img src="image/fleche bas.svg" alt="fleche_vers_le_bas" class="fleche-gauche">
+                <img src="image/fleche bas noir.png" alt="fleche_vers_le_bas" id="fleche-noir-gauche">
+              </button>
+              <button class="carousel-control right" onclick="moveCarousel(1)">
+                <img src="image/fleche bas.svg" alt="fleche_vers_le_bas" class="fleche-droite">
+                <img src="image/fleche bas noir.png" alt="fleche_vers_le_bas" id="fleche-noir-droite">
+              </button>
+              <div class="carousel-indicators">
+                <span onclick="setPosition(0)"></span>
+                <span onclick="setPosition(1)"></span>
+              </div>
+              <script src="script-carrousel.js"></script>
+            </div>
+
+          </div>
+          <div>
+            <div class="diff-competence">
+              <hr>
+              <h2>ADMINISTRER</h2>
+              <hr>
+            </div>
+            <div class="carousel" id="carousel3">
+              <div class="carousel-inner">
+                <div class="carousel-item"><img src="image/sql.png" alt="logo-SQL">SQL</div>
+                <div class="carousel-item"><img src="image/reseau.webp" alt="logo-Reseau">SERVICE-RESEAUX</div>
+              </div>
+              <button class="carousel-control left" onclick="moveCarousel(-1)">
+                <img src="image/fleche bas.svg" alt="fleche_vers_le_bas" class="fleche-gauche">
+                <img src="image/fleche bas noir.png" alt="fleche_vers_le_bas" id="fleche-noir-gauche">
+              </button>
+              <button class="carousel-control right" onclick="moveCarousel(1)">
+                <img src="image/fleche bas.svg" alt="fleche_vers_le_bas" class="fleche-droite">
+                <img src="image/fleche bas noir.png" alt="fleche_vers_le_bas" id="fleche-noir-droite">
+              </button>
+              <div class="carousel-indicators">
+                <span onclick="setPosition(0)"></span>
+              </div>
+              <script src="script-carrousel.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <footer>
+        <div class="espacement-30 bas-de-page">
+          <div class="email">
+            <a href="contact.html">
+              <h3>Me contacter</h3>
+            </a>
+          </div>
+          <div class="reseau">
+            <a href="#">
+              <img src="image/logo-linkedine.png" alt="" id="logo-reseau">
+            </a>
+            <a href="https://www.instagram.com/nathan.cdv/" target="_blank">
+              <img src="image/logo-insta.png" alt="" id="logo-reseau">
+            </a>
+          </div>
+        </div>
+      </footer>
+
+
+
+      <script src="script-modif-couleurNav.js"></script>
+</body>
+
+</html>
