@@ -972,17 +972,17 @@ input[type=password] {
 }
 
 .img-nom {
-    background-image: url('Image/24.png');
+    background-image: url('image/24.png');
     background-size: 22px;
 }
 
 .img-email {
-    background-image: url('Image/23.png');
+    background-image: url('image/23.png');
     background-size: 25px;
 }
 
 .img-mdp {
-    background-image: url('Image/25.png');
+    background-image: url('image/25.png');
     background-size: 27px;
     background-position-x: 8px;
 }
