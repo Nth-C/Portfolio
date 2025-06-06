@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Collaborer au sein d’une équipe informatique : Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique."
         ]
       },
-      images: ["image/word.webp", "image/Java.webp", "image/java-FX.png", "image/R-logo.png", "image/whimsical.png"],
+      images: ["image/word.webp", "image/Java.webp", "image/Java-FX.png", "image/R-logo.png", "image/whimsical.png"],
       subtitles: ["WORD", "JAVA", "JavaFX", "R", "WHIMSICAL"],
       lien: "https://github.com/Nth-C/APPLICATION-DE-GESTION-D-EVENEMENT"
     }
