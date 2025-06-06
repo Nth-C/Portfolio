@@ -1269,7 +1269,7 @@ textarea::placeholder {
 }
 
 @media (max-width:400px) {
-    .competence-projet h1 {
+    h1 {
         font-size: 33px !important;
     }
 }
